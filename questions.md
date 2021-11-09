@@ -3,10 +3,20 @@
 ### Définition de la sécurité
 ### Les 3 familles de mesures de sécurité
 ### Définition des 4 critères de sécurité
+- Disponibilité:
+- Intégrité:
+- Confidentialité:
+- Traçabilité:
 ### Notion de « besoin d’en connaître »
 ### Définition d’un incident de sécurité
 ### Les types d’incidents
+- Externe:
+- Interne:
 ### Les types d’impacts
+- Juridique:
+- Humain:
+- Financier:
+- Réputation:
 ### La notion d’APT
 
 ## Chapitre 1: Introduction
