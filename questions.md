@@ -4,10 +4,10 @@
 L'ensemble des moyens techniques, humains et organisationnels mis en oeuvre pour protéger un SI et le patrimoine de l'entreprise.
 ### Les 3 familles de mesures de sécurité
 ### Définition des 4 critères de sécurité
-- Disponibilité
-- Intégrité
-- Confidentialité
-- Traçabilité
+- Disponibilité:
+- Intégrité:
+- Confidentialité:
+- Traçabilité:
 ### Notion de « besoin d’en connaître »
 Rattaché à la notion de confidentialité. Seuls les personnes concernées peuvent connaître le contenu.
 ### Définition d’un incident de sécurité
