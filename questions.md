@@ -65,8 +65,13 @@ De l'itération
 
 ### Les 2 méthodologies d’analyse de risques
 ### La norme ISO de gestion des risques
+27005
 ### Vocabulaire: vulnérabilité, menace et risque
+- Menace: cause probable d'un incident de sécurité
+- Vulnérabilité: faille qui peut être exploitée par menace
+- Risque: probabilité de réalisation d'une menace
 ### Notion de risque résiduel
+On ne peut pas tout protéger, on accepte donc le risque.
 
 ## Chapitre 4: Architectures sécurisées
 
