@@ -71,22 +71,58 @@ De l'itération
 ## Chapitre 4: Architectures sécurisées
 
 ### Défense en profondeur
+Plusieurs lignes de défense: plusieurs Firewall, DMZ, habilitations...
 ### Principe de moindre privilège
+Pour traverser une défense en profondeur:
+- l'utilisateur être autorisé
+- la fonction doit être prévue
 
 ## Chapitre 5: Gestion des identités et des accès
 
 ### Définir « identification », « authentification » et « autorisation »
+- Identification: Obtenir l'identité de l'utilisateur
+- Authentification: Vérifier l'identité de l'utilisateur
+- Autorisation: Vérifier si l'utilisateur a accès 
 ### Faire la différence entre authentification simple, double et forte
+- Simple: un critère
+- Multiple: plusieurs authentifications
+- Forte: au moins deux critères et un élément cryptographique
 ### Fédération d’identité
+Ressources font confiance dans un tiers par rapport au client.
+- Kerberos: ticket donne droit d'accès temporaire
+- SAML: jeton montre que user est authentifié
 ### LDAP
+Lightweight Directory Access Protocol
+- Un arbre...
+  - ... d'entrées...
+    - ... avec des attributs:
+      - nom
+      - type
+      - valeurs
+- Opérations:
+  - Bind (login)
+  - Search
+  - Add / Delete / Modify
 
 ## Chapitre 6: Durcissement
 
 ### Dans tous les cas, une cartographie s’impose
 ### Notion de « règles d’hygiène »
+- Cartographie précise de l'installation informatique
+- MAJ des composants logiciels
+- Limiter supports amovibles
+- Chiffrer données
 ### Durcissement des dev. D’applications:
 #### Audits de code
+- Disponibilité: robustesse, tests de montée en charge
+- Intégrité: contrôles de saisie
+- Confidentialité: chiffrement des flux
+- Traçabilité: logs
 #### Références de l'OSWAP
+- Injection
+- Auth et sessions
+- XSS (Cross Site Scripting)
+- Données sensibles
 
 ## Chapitre 7: Cryptographie (pas noté)
 
