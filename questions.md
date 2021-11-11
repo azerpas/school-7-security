@@ -56,14 +56,24 @@ De l'itération
 ## Chapitre 2: Droit et NTIC
 
 ### Loi informatique et libertés
+1978:
+- Création CNIL
+- Définition données personnelles
+- Droit d'information, d'opposition et accès
 ### Rôle de la CNIL
+Veille à protéger les données personnelles
 ### Quel est le domaine de la HADOPI
+Droits d'auteur
 ### Liberté et gratuité
 ### Licence copyleft
+Auteur autorise que son travail soit:
+- redistribué sous la licence initiale
+- modifié sous d'autres licences
 
 ## Chapitre 3: L'analyse et le risque
 
 ### Les 2 méthodologies d’analyse de risques
+MEHARI, EBIOS
 ### La norme ISO de gestion des risques
 27005
 ### Vocabulaire: vulnérabilité, menace et risque
@@ -139,19 +149,37 @@ Lightweight Directory Access Protocol
 ## Chapitre 8: Infrastructures à clé publique "PKI"
 
 ### Que représente X509?
+Format des certificats de clés publiques
 ### Définition et rôle: AC, AE?
+- AC: Autorité de certification: Génère des certificats pour des organismes
+- AE: Autorité d'enregistrement: Vérifier la certification entre utilisateur et autorité
 ### Qu’est-ce qu’une « chaîne de certification »?
+- Ajout
+- Suppression 
+- Révocation 
 ### Qu’est-ce qu’un certificat « autosigné »?
+L'AE est l'organisme lui-même
 ### Pourquoi un certificat autosigné est-il peu sûr?
+Le délivrant étant lui-même récepteur, il n'y a aucune vérification sur ses pratiques en terme de sécurité
 
 ## Chapitre 9: Gestion quotidienne de la sécurité des SI
 
 ### Contenu de la PSSI
+- Définition du périmètre
+- Enjeux de la sécurité
+- Conformité
+- Responsabilités
+- Besoins 
+- Liens vers directives
 ### Grands principes de la crise: 
 #### RPO, RTO, WRT, MTD
 
 ## Chapitre 10: Normes de sécurité et audits
 
 ### Normes spécifiques: PCI-DSS, ISO 2700x
+#### PCI
+Norme de sécurité pour les organismes qui traitent des informations bancaires
+#### ISO 2700x
+Défini des standards de sécurité informatique
 
 ## Chapitre 11: Grands enjeux actuels
